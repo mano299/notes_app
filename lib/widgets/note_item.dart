@@ -37,12 +37,15 @@ class NoteItem extends StatelessWidget {
                   ),
                 ),
               ),
-              trailing: IconButton(
-                onPressed: () {},
-                icon: Icon(
-                  FontAwesomeIcons.trash,
-                  color: Colors.black,
-                  size: 26,
+              trailing: Padding(
+                padding: const EdgeInsets.only(bottom: 16.0),
+                child: IconButton(
+                  onPressed: () {},
+                  icon: Icon(
+                    FontAwesomeIcons.trash,
+                    color: Colors.black,
+                    size: 26,
+                  ),
                 ),
               ),
             ),
