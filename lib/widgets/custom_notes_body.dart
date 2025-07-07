@@ -28,6 +28,9 @@ class _CustomNotesBodyState extends State<CustomNotesBody> {
             children: [
               SizedBox(height: 50),
               CustomAppBar(
+                onPressed: () {
+                  
+                },
                 title: 'Notes',
                 icon: Icons.search,
               ),
